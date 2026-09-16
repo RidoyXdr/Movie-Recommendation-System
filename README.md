@@ -26,3 +26,4 @@ An interactive, end-to-end Machine Learning web application that recommends top 
 1. **Text Preprocessing:** Stemming and vectorization applied to tags (genres, keywords, cast, crew).
 2. **Similarity Matrix:** Calculated using **Cosine Similarity** between text vectors.
 3. **Data Compression:** Matrix downcasted to `float32` to meet production limits without sacrificing recommendation accuracy.
+
