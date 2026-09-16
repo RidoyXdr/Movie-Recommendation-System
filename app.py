@@ -94,7 +94,7 @@ def fetch_movie_details(movie_id):
 # Load Models
 movie_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
-
+movies = pd.DataFrame(movies_dict)
 # Recommendation Engine Function
 def recommend(movie):
     movie_index = movies[movies['title'] == movie].index[0]
